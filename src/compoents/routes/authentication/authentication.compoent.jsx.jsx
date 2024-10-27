@@ -1,7 +1,7 @@
 import SignUpForm from '../../sign-up-form/sign-up-form.compoent';
 import SignInForm from '../../sign-in/sign-in-form.compoent';
 
-//import'src\compoents\routes\authentication\authentication.styles.scss';
+import'./authentication.styles.scss';
 
 const Authentication = () => {
   return (
