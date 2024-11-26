@@ -6,6 +6,7 @@ import Home from './compoents/routes/home//home.compoent';
 import Navigation from './compoents/routes/navigation/navigation.compoent';
 import Authentication from './compoents/routes/authentication/authentication.compoent.jsx';
 import Shop from './compoents/routes/shop/shop.compoent.jsx';
+import Checkout from './compoents/chekout-item/checkout-item.compoent.jsx';
 
 
 const App = () => {
@@ -15,6 +16,8 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path='/shop' element={<Shop />} />
         <Route path='/auth' element={<Authentication />} />
+        <Route path='/checkout' element={<Checkout />} />
+
       </Route>
     </Routes>
   );
