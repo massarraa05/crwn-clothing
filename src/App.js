@@ -6,7 +6,7 @@ import Home from './compoents/routes/home//home.compoent';
 import Navigation from './compoents/routes/navigation/navigation.compoent';
 import Authentication from './compoents/routes/authentication/authentication.compoent.jsx';
 import Shop from './compoents/routes/shop/shop.compoent.jsx';
-import Checkout from './compoents/chekout-item/checkout-item.compoent.jsx';
+import Checkout from './compoents/routes/checkout/checkout.compoent.jsx';
 
 
 const App = () => {
